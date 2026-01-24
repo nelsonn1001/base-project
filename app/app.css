@@ -7,9 +7,19 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+ 
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+.standardText {
+  border: 1px solid #110055;
+  border-radius: 8px;
+}
+
+.containerCenterGrid {
+    display: grid;
+    align-content: center;
+    margin: auto;
+    padding: 10px;
+    grid-template-columns: 50%;
+ 
 }
