@@ -1,4 +1,4 @@
-import LobyPage from "src/views/pages/loby_page";
+import LobyPage from "../../src/views/pages/loby_page";
 import type { Route } from "./+types/home";
 
 
