@@ -85,3 +85,22 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 ---
 
 Built with ❤️ using React Router.
+
+
+## Deploy  github
+Install gh-pages
+
+npm install gh-pages --save-dev
+
+add repository in the root of package.json
+
+- "version": "0.1,0",
+- "homepage": "https://yourusername.github.io",
+
+add repository name in defineConfig into vite.config
+
+   - base:"/base-project",
+
+add in package.json in script block the scripts below 
+  - "predeploy": "npm run build",
+  - "deploy": "gh-pages -d dist"
