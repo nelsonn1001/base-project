@@ -1,0 +1,1 @@
+import{p as n,w as r}from"./chunk-EPOLDU6W-Wp3N_t67.js";const t=()=>n.jsxs("div",{className:"containerCenterGrid",children:[n.jsx("span",{children:"acerca de"}),n.jsx("p",{children:"información adicional"})]}),s=r(function(){return n.jsx(t,{})});export{s as default};
