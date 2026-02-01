@@ -103,6 +103,6 @@ add repository name in defineConfig into vite.config
 
 add in package.json in script block the scripts below 
   - "predeploy": "npm run build",
-  - "deploy": "gh-pages -d dist"
+  - "deploy": "gh-pages -d build"
 
   run  - npm run deploy
