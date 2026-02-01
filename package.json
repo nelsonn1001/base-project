@@ -1,7 +1,7 @@
 {
   "name": "base-proyect-react-router",
   "version": "0.1,0",
-  "homepage": "https://github.com/nelsonn1001",
+  "homepage": "https://github.com/nelsonn1001/base-project/",
   "private": true,
   "type": "module",
   "scripts": {

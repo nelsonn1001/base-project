@@ -95,7 +95,7 @@ npm install gh-pages --save-dev
 add repository in the root of package.json
 
 - "version": "0.1,0",
-- "homepage": "https://yourusername.github.io",
+- "homepage": "https://{your-username}.github.io/{your-repo-name}/",
 
 add repository name in defineConfig into vite.config
 
@@ -104,3 +104,5 @@ add repository name in defineConfig into vite.config
 add in package.json in script block the scripts below 
   - "predeploy": "npm run build",
   - "deploy": "gh-pages -d dist"
+
+  run  - npm run deploy
